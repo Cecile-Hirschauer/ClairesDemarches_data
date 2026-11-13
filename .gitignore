@@ -1,0 +1,15 @@
+# Environnement Python
+.venv/
+__pycache__/
+*.pyc
+
+# Fichiers temporaires des notebooks
+.ipynb_checkpoints/
+
+# Données
+data/brutes/
+data/traitees/
+
+# Secrets
+.env
+.env.*
