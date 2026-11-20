@@ -6,6 +6,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Exploratory data analysis of user experience reports from the French public-services feedback platform ("Services Publics +", hence `spplus` in notebook names). Work happens in Jupyter notebooks under `notebooks/`, numbered sequentially (`01_exploration_spplus.ipynb`, …). Code comments, outputs and folder names are in French — follow that convention.
 
+Notebook structure: each step gets a numbered Markdown section (`## N. …`) before its code, explaining what is checked and why, and a short interpretation cell (`### …`) after the results. `df_raw` holds the untouched export and is never modified; cleaning steps work on copies.
+
 ## Environment
 
 - Python >= 3.14, managed with `uv` (`pyproject.toml` + `uv.lock`, virtualenv in `.venv/`).
